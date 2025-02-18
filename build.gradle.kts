@@ -25,6 +25,10 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+	// cache
+	implementation("org.springframework.boot:spring-boot-starter-cache:3.4.2")
+	implementation("org.ehcache:ehcache:3.10.8")
 }
 
 kotlin {
